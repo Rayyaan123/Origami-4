@@ -1,0 +1,52 @@
+.header {
+  padding-left: 20px;
+}
+
+.grid {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  padding-left: 100px;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.header {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0px;
+  background-color: #f7f2f2;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+
+.item img {
+  opacity: 0.2;
+}
+.item:hover img {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.bodyimg h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: sans-serif;
+}
